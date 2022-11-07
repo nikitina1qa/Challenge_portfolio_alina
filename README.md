@@ -33,5 +33,13 @@ But even without this, I will get valuable knowledge and a little testing experi
 ## Sign in
 
 * //*[text()="Sign in"]
-* //span[contains(@class, '')]
+* //span[contains(@class, 'MuiButton')]
 * //span[@class]
+* //span[starts-with(@class, 'MuiButton')]
+
+## Language
+
+* //*[@id="__next"]/form/div/div[2]/div/div
+* //div[contains(@role, 'button')]
+* //div[@role='button']
+* //*[text()="English"]
