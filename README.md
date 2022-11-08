@@ -17,29 +17,29 @@ But even without this, I will get valuable knowledge and a little testing experi
 
 ## Login
 
-* //*[@id="login"]
-* //input[@type="text"]
+* //*[@id='login']
+* //input[@type='text']
 * /html/body/div/form/div/div[1]/div[1]/div/input
 * //input[starts-with(@type, 'text')]
 * //input[contains(@name, 'login')]
 
 ## Password
 
-* //*[@id="password"]
-* //div/input[@id="password"]
+* //*[@id='password']
+* //div/input[@id='password']
 * //input[starts-with(@type, 'password')]
 * //input[contains(@id, 'password')]
 
 ## Sign in
 
-* //*[text()="Sign in"]
+* //*[text()='Sign in']
 * //span[contains(@class, 'MuiButton')]
 * //span[@class]
 * //span[starts-with(@class, 'MuiButton')]
 
 ## Language
 
-* //*[@id="__next"]/form/div/div[2]/div/div
+* //*[@id='__next']/form/div/div[2]/div/div
 * //div[contains(@role, 'button')]
 * //div[@role='button']
-* //*[text()="English"]
+* //*[text()='English']
